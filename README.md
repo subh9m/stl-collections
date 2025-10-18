@@ -12,51 +12,120 @@ It provides structured tables, theory summaries, and categorized examples for qu
 
 ## 📁 Project Structure
 
-stl-collections-guide/
-│
-├── 📁public/
-│ ├── vite.svg
-│
-├── 📁src/
-│ ├── 📁assets/
-│ │ ├── react.svg
-│ │
-│ ├── 📁components/
-│ │ ├── 📁Javacomponents/
-│ │ │ ├── ArrayListTable.jsx
-│ │ │ ├── CollectionsTable.jsx
-│ │ │ ├── HashMapTable.jsx
-│ │ │ ├── TreeMapTable.jsx
-│ │ │ ├── ... (more Java tables)
-│ │ │
-│ │ ├── DequeTable.jsx
-│ │ ├── ListTable.jsx
-│ │ ├── MapTable.jsx
-│ │ ├── QueueTable.jsx
-│ │ ├── SetTable.jsx
-│ │ ├── StackTable.jsx
-│ │ ├── VectorTable.jsx
-│ │ ├── Sidebar.jsx
-│ │ ├── MainContent.jsx
-│ │ ├── ... (other STL component tables)
-│ │
-│ ├── 📁pages/
-│ │ ├── StlGuide.jsx
-│ │
-│ ├── App.jsx
-│ ├── App.css
-│ ├── index.css
-│ ├── main.jsx
-│
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-
+```
+└── 📁stl
+        └── 📁hooks
+            ├── applypatch-msg.sample
+            ├── commit-msg.sample
+            ├── fsmonitor-watchman.sample
+            ├── post-update.sample
+            ├── pre-applypatch.sample
+            ├── pre-commit.sample
+            ├── pre-merge-commit.sample
+            ├── pre-push.sample
+            ├── pre-rebase.sample
+            ├── pre-receive.sample
+            ├── prepare-commit-msg.sample
+            ├── push-to-checkout.sample
+            ├── sendemail-validate.sample
+            ├── update.sample
+        └── 📁info
+            ├── exclude
+        └── 📁logs
+            └── 📁refs
+                └── 📁heads
+                    ├── main
+                └── 📁remotes
+                    └── 📁origin
+                        ├── main
+            ├── HEAD
+        └── 📁objects
+            └── 📁18
+                ├── bc70ebe277fbfe6e55e6f9a0ae7e2c3e4bdd83
+            └── 📁5b
+                ├── b0f7a4c8283f0a04f92b49af13c58b76c022dd
+            └── 📁9b
+                ├── 2128e5d816e7b02631579e013bf318a621c721
+            └── 📁info
+            └── 📁pack
+        └── 📁refs
+            └── 📁heads
+                ├── main
+            └── 📁remotes
+                └── 📁origin
+                    ├── main
+            └── 📁tags
+        ├── COMMIT_EDITMSG
+        ├── config
+        ├── description
+        ├── HEAD
+        ├── index
+    └── 📁public
+        ├── vite.svg
+    └── 📁src
+        └── 📁assets
+            ├── react.svg
+        └── 📁components
+            └── 📁Javacomponents
+                ├── ArrayListTable.jsx
+                ├── ArraysTable.jsx
+                ├── CollectionsTable.jsx
+                ├── DequeJavaTable.jsx
+                ├── HashMapTable.jsx
+                ├── HashSetTable.jsx
+                ├── HashtableTable.jsx
+                ├── JavaPlaceholders.jsx
+                ├── LinkedHashMapTable.jsx
+                ├── LinkedHashSetTable.jsx
+                ├── LinkedListTable.jsx
+                ├── PriorityQueueJavaTable.jsx
+                ├── QueueJavaTable.jsx
+                ├── StackJavaTable.jsx
+                ├── StringBufferTable.jsx
+                ├── StringBuilderTable.jsx
+                ├── TreeMapTable.jsx
+                ├── TreeSetTable.jsx
+                ├── VectorJavaTable.jsx
+            ├── DequeTable.jsx
+            ├── ListTable.jsx
+            ├── MainContent.jsx
+            ├── MapTable.jsx
+            ├── MinMaxTable.jsx
+            ├── ModifyingTable.jsx
+            ├── MultimapTable.jsx
+            ├── MultisetTable.jsx
+            ├── NumericTable.jsx
+            ├── PairTable.jsx
+            ├── PartitioningTable.jsx
+            ├── PermutationsTable.jsx
+            ├── PriorityQueueTable.jsx
+            ├── QueueTable.jsx
+            ├── SetTable.jsx
+            ├── Sidebar.jsx
+            ├── SortingTable.jsx
+            ├── StackTable.jsx
+            ├── StringTable.jsx
+            ├── UnorderedMapTable.jsx
+            ├── unorderedMultimapTable.jsx
+            ├── UnorderedMultiSetTable.jsx
+            ├── UnorderedSetTable.jsx
+            ├── VectorTable.jsx
+        └── 📁pages
+            ├── StlGuide.jsx
+        ├── App.css
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.js
+    └── vite.config.js
+```
 
 ---
 
