@@ -6,7 +6,7 @@ It provides structured tables, theory summaries, and categorized examples for qu
 ---
 
 ## 🌐 Live Demo
-> [Add your deployment link here — GitHub Pages / Vercel / Netlify]
+> https://subh9m.github.io/stl-collections/
 
 ---
 
